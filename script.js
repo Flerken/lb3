@@ -1,10 +1,13 @@
 let user = {
-    name: null
+    name: null,
+    desc: null,
+    getName : ()=> {
+        return name
+    }
+
 }
 
-function getName(){
-    console.log("Виктор");
-}
+
 
 function setName(){
     user.name = "Виктор"
