@@ -2,13 +2,10 @@ let user = {
     name: null,
     desc: null,
     getName : ()=> {
-        return name
+        return user.name
+    },
+    setName : ()=> {
+        user.name = "Виктор"
     }
 
-}
-
-
-
-function setName(){
-    user.name = "Виктор"
 }
